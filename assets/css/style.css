@@ -1,0 +1,199 @@
+:root {
+    --fw-100: 100;
+    --fw-200: 200;
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --font-family: 'Poppins', sans-serif;
+}
+
+.fw-100 {
+    font-weight: var(--fw-100);
+    font-family: var(--font-family);
+}
+
+.fw-200 {
+    font-weight: var(--fw-200);
+    font-family: var(--font-family);
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+    font-family: var(--font-family);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+    font-family: var(--font-family);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+    font-family: var(--font-family);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+    font-family: var(--font-family);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+    font-family: var(--font-family);
+}
+
+.fw-800 {
+    font-weight: var(--fw-800);
+    font-family: var(--font-family);
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.jarak {
+    padding-top: 120px;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.home {
+    width: 100%;
+    height: 601px;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 100%;
+    height: 601px;
+}
+
+.colom-1 {
+    width: 25%;
+    height: 170px;
+    background-color: #a3b7ca;
+}
+
+.colom-2 {
+    width: 25%;
+    height: 170px;
+    background-color: #7593af;
+}
+
+.colom-3 {
+    width: 25%;
+    height: 170px;
+    background-color: #476f95;
+}
+
+.colom-4 {
+    width: 25%;
+    height: 170px;
+    background-color: #194a7a;
+}
+
+.btn-primary {
+    background-color: #7593af !important;
+    color: white !important;
+    border: none;
+}
+
+.bg-comand {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(241, 241, 241) !important;
+    color: #7593af !important;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.cooperation {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/bg-building.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.backdrop-blue {
+    background-color: #7593afb4;
+    width: 100%;
+    height: auto;
+}
+
+.object-fit{
+    object-fit: cover;
+}
+
+.border-white{
+    border: 5px solid white;
+}
+
+.founder{
+    width: 100%;
+    height: auto;
+}
+
+.line{
+    border: 1.5px solid #194a7a !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/bg-ship.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-contact{
+    background-color: #476f95a3;
+    width: 100%;
+    height: auto;
+}
+
+.text-blue{
+    color: #194a7a !important;
+}
+
+footer{
+    width: 100%;
+    height: 301px;
+    background-color: #194a7a;
+}
